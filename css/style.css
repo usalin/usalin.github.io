@@ -201,6 +201,18 @@ font-size: 100px;
     
 }
 
+.dating-item img {
+    width: 30%;
+    height: 30%;
+
+    /* widows: 100%; */
+
+-webkit-transition: all 0.2s linear, 1s;
+-moz-transition: all 0.2s linear,  1s;
+-o-transition: all 0.2s linear,  1s;
+-ms-transition: all 0.2s linear, 1s;
+}
+
 .items li img {
 widows: 100%;
 
@@ -275,6 +287,12 @@ display: inline-block;
     -ms-transition: all 0.2s linear,1s;
 }
 
+.items .dating-item:hover .imageOverlay {
+    opacity: 1;
+}
+.items .ecommerce-item:hover .imageOverlay {
+    opacity: 1;
+}
 .items .item:hover .imageOverlay {
     opacity: 1;
 }
